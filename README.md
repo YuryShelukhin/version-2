@@ -124,19 +124,19 @@ origin-https	https://github.com/andrey-borue/devops-netology.git (push)
 
 2-4. Создадим новый проект.
 
-<img src = "img/1-2-4-1.png" width = 60%> 
-<img src = "img/1-2-4-2.png" width = 60%> 
-<img src = "img/1-2-4-3.png" width = 60%> 
+<img src = "img/1-2-4-1.png" width = 60%>   
+<img src = "img/1-2-4-2.png" width = 60%>   
+<img src = "img/1-2-4-3.png" width = 60%>   
 
-5. Перейдем на страницу созданного репозитория и изучим предлагаемые варианты для начала работы в репозитории в секции `Command line instructions`.   
+5. Перейдем на страницу созданного репозитория и изучим предлагаемые варианты для начала работы в репозитории в секции `Command line instructions`.     
 
-<img src = "img/1-5.png" width = 60%>
+<img src = "img/1-5.png" width = 60%>  
 
-6. Изучим команду `git remote -v`.
+6. Изучим команду `git remote -v`.  
 
-<img src = "img/1-6.png" width = 60%>
+<img src = "img/1-6.png" width = 60%>  
 
-Данная команда покажет список подключенных удаленных репозиториев.
+Данная команда покажет список подключенных удаленных репозиториев.  
 
 7. Добавим репозиторий gitlab, как дополнительный `remote`, к созданному репозиторию в рамках предыдущего домашнего задания:
 `git remote add gitlab git@gitlab.com:yuryshelukhin-group/version-2.git`  
@@ -186,7 +186,7 @@ origin-https	https://github.com/andrey-borue/devops-netology.git (push)
 1. Создадим легковестный тег `v0.0` на HEAD-коммите:  
 `git tag v0.0`    
 
-<img src = "img/2-1-1.png" width = 60%>  
+<img src = "img/2-1.png" width = 60%>  
 
 и запушим его в обе удаленные ветки.   
 
@@ -203,11 +203,11 @@ origin-https	https://github.com/andrey-borue/devops-netology.git (push)
 
 3. Перейдите на страницу просмотра тегов в Github и Gitlab для просмотра.   
 
-<img src = "img/2-3-1" width = 60%>  
-<img src = "img/2-3-2" width = 60%>  
-<img src = "img/2-3-3" width = 60%>  
-<img src = "img/2-3-4" width = 60%>  
-<img src = "img/2-3-5" width = 60%>  
+<img src = "img/2-3-1.png" width = 60%>  
+<img src = "img/2-3-2.png" width = 60%>  
+<img src = "img/2-3-3.png" width = 60%>  
+<img src = "img/2-3-4.png" width = 60%>  
+<img src = "img/2-3-5.png" width = 60%>  
 
 ---
 
@@ -281,12 +281,12 @@ origin-https	https://github.com/andrey-borue/devops-netology.git (push)
 
 1. Для проверки возможностие работы с Git в визуальном редакторе (я использую VSCode) изменим файл README.md.    
    
-<img src = "img/4-1-0.png" width = 60%>   
-<img src = "img/4-1-1.png" width = 60%>   
+<img src = "img/4-1-0.png" width = 60%>     
+<img src = "img/4-1-2.png" width = 60%>   
 
-2. Выполним коммит с помощью интерфейса VScode.  
+1. Выполним коммит с помощью интерфейса VScode.  
 
-<img src = "img/4-2.png" width = 60%>  
+<img src = "img/4-1.png" width = 60%>  
 
 3. Изучим какие еще возможности предоставляет VScode. Можно нажатием кнопок переходить между ветками между коммитами, вытягивать и отправлять информацию в удаленный репозиторий, просматривать изменения файлов, делать коммт с добавлением комментариев и т.д.    
 
