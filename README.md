@@ -152,7 +152,7 @@ origin-https	https://github.com/andrey-borue/devops-netology.git (push)
 Чтобы не использовать SSH, привяжем remote на HTTPS.  
 `git remote set-url gitlab https://gitlab.com/yuryshelukhin-group/version-2.git`
 
-8. Сделаем изменения в файле README.md и закомиттим его. Далее отправьте изменения в новый удалённый репозиторий `git push -gitlab main`.
+8. Сделаем изменения в файле README.md и закомиттим его. Далее отправим изменения в новый удалённый репозиторий `git push -gitlab main`.
 
 <img src = "img/1-8.png" width = 60%>
 
@@ -201,7 +201,7 @@ origin-https	https://github.com/andrey-borue/devops-netology.git (push)
 
 и вновь запушим тег в обе удаленные ветки.  
 
-3. Перейдите на страницу просмотра тегов в Github и Gitlab для просмотра.   
+3. Перейдем на страницы просмотра тегов в Github и Gitlab для изучения.   
 
 <img src = "img/2-3-1.png" width = 60%>  
 <img src = "img/2-3-2.png" width = 60%>  
@@ -230,7 +230,7 @@ origin-https	https://github.com/andrey-borue/devops-netology.git (push)
    
 <img src = "img/3-1-2.png" width = 60%>    
 
-3. Перекличимся на этот коммит.    
+3. Переключимся на этот коммит.    
 `git checkout e98d966`    
 
 <img src = "img/3-3.png" width = 60%>    
@@ -248,7 +248,7 @@ origin-https	https://github.com/andrey-borue/devops-netology.git (push)
 
 <img src = "img/3-6.png" width = 60%>    
 
-7. Изменим содержание файла `README.md`, добавив новую строчку, отправим изменения в репозиторий.  
+7. Изменим содержание файла `README.md`, добавив новую строчку, и отправим изменения в репозиторий.  
 
 `git commit -am 'fix +change'`  
 `git push -u origin fix`  
@@ -279,16 +279,16 @@ origin-https	https://github.com/andrey-borue/devops-netology.git (push)
 
 ### Решение 4.  
 
-1. Для проверки возможностие работы с Git в визуальном редакторе (я использую VSCode) изменим файл README.md.    
+1. Для проверки возможностей работы с Git в визуальном редакторе (я использую VSCode) изменим файл README.md.      
    
-<img src = "img/4-1-0.png" width = 60%>     
-<img src = "img/4-1-2.png" width = 60%>   
+<img src = "img/4-1-0.png" width = 60%>       
+<img src = "img/4-1-2.png" width = 60%>     
 
-1. Выполним коммит с помощью интерфейса VScode.  
+2. Выполним коммит с помощью интерфейса VScode.  
 
-<img src = "img/4-1.png" width = 60%>  
+<img src = "img/4-2.png" width = 60%>  
 
-3. Изучим какие еще возможности предоставляет VScode. Можно нажатием кнопок переходить между ветками между коммитами, вытягивать и отправлять информацию в удаленный репозиторий, просматривать изменения файлов, делать коммт с добавлением комментариев и т.д.    
+3. Изучим какие еще возможности предоставляет VScode: можно нажатием кнопок переходить между веткамии и между коммитами, вытягивать и отправлять информацию в удаленный репозиторий, просматривать изменения файлов, делать коммит с добавлением комментариев и т.д.    
 
 <img src = "img/4-3-1.png" width = 60%>    
 <img src = "img/4-3-2.png" width = 60%>    
